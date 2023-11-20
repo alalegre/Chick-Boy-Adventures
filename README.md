@@ -1,2 +1,2 @@
 # Chick-Boy Adventures
- GDevelop game 
+ Platformer game made in GDevelop 5 in a team 
