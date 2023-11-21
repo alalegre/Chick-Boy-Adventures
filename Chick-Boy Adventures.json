@@ -1638,6 +1638,159 @@
         "name": "LightningTrap24",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightningHitBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LightningHitBox",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wall.png\"}",
+        "name": "Wall",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite37",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite38",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallGrab6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallGrab6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallSlide.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallSlide",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallSlide2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallSlide2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallSlide3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallSlide3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftWallSlide4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftWallSlide4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite39",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite40",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1660,13 +1813,13 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 650,
-          "jumpSustainTime": 0.1,
-          "maxFallingSpeed": 475,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 475,
+          "gravity": 1000,
+          "jumpSustainTime": 0.1,
+          "maxFallingSpeed": 475,
           "acceleration": 500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": true,
@@ -1740,7 +1893,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -2342,7 +2495,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.075,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -4146,7 +4299,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -4303,7 +4456,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
