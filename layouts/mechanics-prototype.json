@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.5800155239904877,
+    "snap": true,
+    "zoomFactor": 0.5610952083582185,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,25 +33,9 @@
       "name": "Player",
       "persistentUuid": "1d17e482-1d6c-4028-8dd8-0aef07f7fdb3",
       "width": 64,
-      "x": 476,
-      "y": 157,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "Floor",
-      "name": "Floor",
-      "persistentUuid": "107eba36-38ff-4a5e-b1b1-3490d1614b3f",
-      "width": 288,
       "x": 96,
-      "y": 576,
-      "zOrder": 4,
+      "y": -128,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -60,13 +44,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 128,
       "layer": "Floor",
       "name": "Floor",
       "persistentUuid": "494a688f-f219-49b6-9a44-43aa0c40b407",
-      "width": 928,
-      "x": 384,
-      "y": 384,
+      "width": 332,
+      "x": -12,
+      "y": 704,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,9 +65,25 @@
       "name": "PlayerHitBox",
       "persistentUuid": "bc64488a-c931-4992-9cae-edfad01bc24c",
       "width": 30,
-      "x": 214,
-      "y": -571,
-      "zOrder": 0,
+      "x": 64,
+      "y": 640,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 33,
+      "height": 1080,
+      "layer": "Background",
+      "name": "BGFar",
+      "persistentUuid": "e5dca0bc-522f-48b5-9702-27981c17d2b2",
+      "width": 1938,
+      "x": -8,
+      "y": 1,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,14 +92,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 256,
-      "layer": "Floor",
-      "name": "RightWall",
-      "persistentUuid": "56f75613-68c6-42cd-b6e4-33cc6e6b6bbd",
-      "width": 32,
-      "x": 224,
-      "y": 160,
-      "zOrder": 43,
+      "height": 1084,
+      "layer": "Background",
+      "name": "BGRocks2",
+      "persistentUuid": "92a6980a-7960-4bef-b3a7-9ff1204e9cb7",
+      "width": 1920,
+      "x": 1,
+      "y": 2,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -108,14 +108,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1249,
-      "layer": "Floor",
-      "name": "LeftWall",
-      "persistentUuid": "b1f93ceb-6762-42af-bcdd-f25917fc2054",
-      "width": 32,
-      "x": 352,
-      "y": -672,
-      "zOrder": 4,
+      "height": 1093,
+      "layer": "Background",
+      "name": "BGClouds1",
+      "persistentUuid": "b3978d56-3fdc-413d-829a-652abcf5a8ad",
+      "width": 1927,
+      "x": -3,
+      "y": -10,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1089,
+      "layer": "Background",
+      "name": "BGClouds2",
+      "persistentUuid": "c44370bb-83c7-456a-a74b-e5f290930be2",
+      "width": 1927,
+      "x": -8,
+      "y": -1,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -124,13 +140,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Floor",
-      "name": "Block",
-      "persistentUuid": "279b3006-ef4e-4291-a531-ac3f736ef2f3",
+      "layer": "Background",
+      "name": "BGRocks1",
+      "persistentUuid": "0ef43c7a-4cc8-47a6-a51e-8f576ba1c99e",
       "width": 0,
-      "x": 224,
-      "y": 384,
-      "zOrder": 44,
+      "x": 1072,
+      "y": 914,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,14 +155,126 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1214,
+      "height": 1086,
+      "layer": "Background",
+      "name": "BGRocks1",
+      "persistentUuid": "b2244469-baf1-4564-b163-82c8a0bc243f",
+      "width": 1933,
+      "x": -5,
+      "y": -6,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1082,
+      "layer": "Background",
+      "name": "BGClouds3",
+      "persistentUuid": "77f4bdbd-a1ab-419e-b6f6-a48a219c7b2c",
+      "width": 1931,
+      "x": -3,
+      "y": -3,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "Background",
+      "name": "BGClouds4",
+      "persistentUuid": "f63d8700-bcd5-46f6-a878-96d530bde1c8",
+      "width": 1932,
+      "x": -4,
+      "y": -3,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
       "layer": "Floor",
-      "name": "RightWall",
-      "persistentUuid": "47e35c37-c77c-4f85-8aa4-b3bacf25224c",
-      "width": 32,
-      "x": 96,
-      "y": -638,
-      "zOrder": 45,
+      "name": "LeftWall",
+      "persistentUuid": "e12ae155-2eff-42a1-8687-9c31a2bea3c7",
+      "width": 160,
+      "x": -160,
+      "y": -32,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "Death",
+      "persistentUuid": "c8f9e56d-4ef6-4096-a3a6-d0c02be00e08",
+      "width": 4288,
+      "x": -32,
+      "y": 832,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "Floor",
+      "name": "FloorTrap",
+      "persistentUuid": "ea790fa9-dcac-442d-af9a-95a351b23cf9",
+      "width": 128,
+      "x": 320,
+      "y": 704,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "121f2316-9fc7-471f-98c6-35e076e58a16",
+      "width": 704,
+      "x": 448,
+      "y": 704,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "d7715583-d107-4b96-8af6-d8c6fd5279a1",
+      "width": 320,
+      "x": 832,
+      "y": 576,
+      "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -158,11 +286,184 @@
       "height": 32,
       "layer": "Floor",
       "name": "Floor",
-      "persistentUuid": "db2c2814-2ad1-4a01-bea2-09daa3c27ad3",
-      "width": 125,
-      "x": 167,
-      "y": -506,
-      "zOrder": 46,
+      "persistentUuid": "397fc4ad-ca43-4233-89b2-71b677e31e05",
+      "width": 96,
+      "x": 1248,
+      "y": 544,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "baa3e458-49c5-4f4f-b338-a2f866ab4723",
+      "width": 64,
+      "x": 1536,
+      "y": 544,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "298e649b-096d-44ee-a6a0-da760dc87725",
+      "width": 0,
+      "x": 1792,
+      "y": 544,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "bca13960-5f3c-4080-8a48-465281cfe350",
+      "width": 0,
+      "x": 1952,
+      "y": 448,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "5934a8a1-7459-4b96-9362-a41165934100",
+      "width": 64,
+      "x": 2176,
+      "y": 448,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "9459ec2c-9973-451f-9d39-fd0ade703fd6",
+      "width": 32,
+      "x": 2240,
+      "y": 480,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "43a97bdc-27c8-420e-90ae-ce448f7dec56",
+      "width": 64,
+      "x": 2272,
+      "y": 512,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "Floor",
+      "name": "Floor",
+      "persistentUuid": "930dec3d-ab72-4616-a520-36cb2749f8ca",
+      "width": 960,
+      "x": 2336,
+      "y": 544,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "BadTrap",
+      "persistentUuid": "14ec484b-b538-4e51-b21d-9ab729940f2c",
+      "width": 0,
+      "x": 2528,
+      "y": 512,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "Floor",
+      "name": "BadTrap",
+      "persistentUuid": "be41f8ac-ceba-46c4-8c7f-8f40128133dd",
+      "width": 32,
+      "x": 2784,
+      "y": 480,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "Floor",
+      "name": "BadTrap",
+      "persistentUuid": "e2b4c19d-3216-4a59-9705-028432f1b9c9",
+      "width": 32,
+      "x": 3008,
+      "y": 448,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 448,
+      "layer": "Floor",
+      "name": "BadTrap",
+      "persistentUuid": "daf45ec3-3c0e-4205-92c7-5e0e814f98e4",
+      "width": 32,
+      "x": 3264,
+      "y": 96,
+      "zOrder": 119,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -200,47 +501,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 256,
-      "name": "BGTreesFar",
-      "texture": "FPSET1_v2.0\\SET1\\_PNG\\SET1_bakcground_day1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 256,
-      "name": "BGTreesFront",
-      "texture": "Tall Forest Files\\Tall Forest Files\\Layers\\far.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Floor",
-      "texture": "New image",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": -20,
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform"
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -2289,88 +2549,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "PlayerHitBox",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": true,
-          "canGrabWithoutMoving": true,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite36",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "LightningHitBox",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2508,10 +2686,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -2577,10 +2755,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -2635,6 +2813,369 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGFar",
+      "texture": "New image14",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGRocks1",
+      "texture": "New image15",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGRocks2",
+      "texture": "New image16",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds1",
+      "texture": "New image18",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds2",
+      "texture": "New image19",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds3",
+      "texture": "New image20",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds4",
+      "texture": "New image21",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "IntroLevel",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "tilemapJsonFile": "Tilemaps\\Intro Level.json",
+        "tilesetJsonFile": "",
+        "tilemapAtlasImage": "Level Tiles\\1 Tiles\\Tileset.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 4
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Death",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite41",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Floor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite42",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FloorTrap",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite43",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BadTrap",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite44",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2645,15 +3186,6 @@
       },
       {
         "objectName": "NewSprite"
-      },
-      {
-        "objectName": "BGTreesFar"
-      },
-      {
-        "objectName": "BGTreesFront"
-      },
-      {
-        "objectName": "Floor"
       },
       {
         "objectName": "CeilingTrap"
@@ -2668,9 +3200,6 @@
         "objectName": "PunchTrap"
       },
       {
-        "objectName": "PlayerHitBox"
-      },
-      {
         "objectName": "LightningHitBox"
       },
       {
@@ -2681,6 +3210,42 @@
       },
       {
         "objectName": "Block"
+      },
+      {
+        "objectName": "BGFar"
+      },
+      {
+        "objectName": "BGRocks2"
+      },
+      {
+        "objectName": "BGClouds1"
+      },
+      {
+        "objectName": "BGClouds2"
+      },
+      {
+        "objectName": "BGRocks1"
+      },
+      {
+        "objectName": "BGClouds3"
+      },
+      {
+        "objectName": "BGClouds4"
+      },
+      {
+        "objectName": "IntroLevel"
+      },
+      {
+        "objectName": "Death"
+      },
+      {
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "FloorTrap"
+      },
+      {
+        "objectName": "BadTrap"
       }
     ]
   },
@@ -2713,6 +3278,38 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -2767,6 +3364,70 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Floor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Collisions",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Intro Level",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
