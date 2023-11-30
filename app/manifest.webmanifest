@@ -2,7 +2,7 @@
   "name": "Chick-Boy Adventures",
   "short_name": "Chick-Boy Adventures",
   "id": "com.example.gamename",
-  "description": "",
+  "description": "INCOMPLETE PROTOTYPE. WIP",
   "orientation": "any",
   "start_url": "./index.html",
   "display": "standalone",
