@@ -166,20 +166,6 @@
             },
             {
               "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "LeftWall.BoundingBoxLeft()",
-                "0",
-                "RightWall.BoundingBoxRight()",
-                "Floor.BoundingBoxBottom()",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -245,6 +231,34 @@
               },
               "parameters": [
                 "HiddenTrigger2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SafeFloatGrass"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "SawTrap",
+                "=",
+                "SawTrapHitBox.X() -20",
+                "=",
+                "SawTrapHitBox.Y() - 34"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SawTrapHitBox"
               ]
             }
           ]
@@ -840,6 +854,33 @@
                     "FloorTrap2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapFloatGrass",
+                    ""
+                  ]
                 }
               ]
             }
@@ -864,7 +905,7 @@
                   },
                   "parameters": [
                     "PlayerHitBox",
-                    "FloorTrap",
+                    "TrapMidGrass",
                     "",
                     "",
                     ""
@@ -874,12 +915,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "FloorTrap",
-                    "Platform",
-                    "no"
+                    "TrapMidGrass"
                   ]
                 },
                 {
@@ -887,7 +926,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "FloorTrap"
+                    "TrapDirt"
                   ]
                 }
               ]
@@ -901,7 +940,7 @@
                   },
                   "parameters": [
                     "PlayerHitBox",
-                    "SafeFloor",
+                    "SafeFloatGrass",
                     "True",
                     "",
                     ""
@@ -914,7 +953,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "SafeFloor",
+                    "SafeFloatGrass",
                     ""
                   ]
                 },
@@ -923,7 +962,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "FloorTrap"
+                    "TrapFloatGrass"
                   ]
                 }
               ]
@@ -937,7 +976,7 @@
                   },
                   "parameters": [
                     "PlayerHitBox",
-                    "FloorTrap2",
+                    "TrapFloatGrass",
                     "",
                     "",
                     ""
@@ -950,7 +989,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "FloorTrap2"
+                    "TrapFloatGrass"
                   ]
                 }
               ]
@@ -1191,14 +1230,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "MovingTrap",
-                    "",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "MovingTrap",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "MovingTrap2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "SawTrapHitBox",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1243,6 +1314,17 @@
               ]
             }
           ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
           "parameters": []
         }
       ],

@@ -2126,6 +2126,645 @@
         "name": "NewSprite49",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite51",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite52",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image30",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image33",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap02",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap03",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap04",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap05",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap06",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap07",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap08",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap09.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap09",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap010.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap010",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap011.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap011",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap012.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap012",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap013.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap013",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap014.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap014",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap015.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap015",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap016.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap016",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap017.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap017",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap018.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap018",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap019.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap019",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap020.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap020",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap021.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap021",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap022.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap022",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap023.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap023",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap024",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap025.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap025",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap026.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap026",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap027.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap027",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap028.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap028",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap029.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap029",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap030.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap030",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap031.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap031",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap032.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap032",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap033.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap033",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap034.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap034",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap035.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap035",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap036.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap036",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap037.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap037",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap038.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap038",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap039.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap039",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap040.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap040",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap041.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap041",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap042.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap042",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap043.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap043",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap044.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap044",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap045.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap045",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap046.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap046",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap047.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap047",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap048.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap048",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MovingTrap049.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MovingTrap049",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SawTrapHitBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SawTrapHitBox",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
