@@ -260,6 +260,30 @@
               "parameters": [
                 "SawTrapHitBox"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SquidGameTrap"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Flag"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShowSafeFloat"
+              ]
             }
           ]
         }
@@ -816,15 +840,6 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "FloorTrap",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
                     "HiddenSafeTrap",
                     ""
                   ]
@@ -835,24 +850,6 @@
                   },
                   "parameters": [
                     "HiddenBadTrap"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "FloorTrap3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "FloorTrap2",
-                    ""
                   ]
                 },
                 {
@@ -880,6 +877,45 @@
                   "parameters": [
                     "TrapFloatGrass",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SafeFloatGrass"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "CheckpointDeath",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "=",
+                    "Flag.X() - 10",
+                    "=",
+                    "Flag.Y() - 10"
                   ]
                 }
               ]
@@ -1003,6 +1039,34 @@
                   },
                   "parameters": [
                     "PlayerHitBox",
+                    "ShowSafeFloat",
+                    "640",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SafeFloatGrass",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
                     "HiddenTrigger2",
                     "",
                     "",
@@ -1016,7 +1080,15 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "FloorTrap3"
+                    "TrapMidGrass4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TrapDirt4"
                   ]
                 }
               ]
@@ -1055,6 +1127,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "TrapMidGrass3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TrapMidGrass3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TrapDirt3"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -1064,7 +1171,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bad Trap",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1111,7 +1217,25 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "FloorTrap",
+                    "TrapMidGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapFloatGrass",
                     ""
                   ]
                 },
@@ -1120,7 +1244,24 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "SafeFloor"
+                    "SafeFloatGrass"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "HiddenSafeTrap",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HiddenBadTrap"
                   ]
                 }
               ]
@@ -1247,6 +1388,47 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "SquidGameTrap",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "=",
+                    "Flag.X() - 10",
+                    "=",
+                    "Flag.Y() - 10"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -1265,46 +1447,14 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "CollisionNP"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerHitBox",
-                        "MovingTrap",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerHitBox",
-                        "MovingTrap2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerHitBox",
-                        "SawTrapHitBox",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "PlayerHitBox",
+                    "SawTrapHitBox",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -1347,6 +1497,67 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "MovingTrap",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "MovingTrap2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "=",
+                    "Flag.X() - 10",
+                    "=",
+                    "Flag.Y() - 10"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -1356,10 +1567,87 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "",
+          "name": "Checkpoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "Flag",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "Grass",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "=",
+                    "Flag.X() - 10",
+                    "=",
+                    "Flag.Y() - 10"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
         }
       ],
