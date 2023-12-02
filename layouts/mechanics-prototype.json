@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.0192755261489261,
+    "zoomFactor": 1.0536458333333831,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,8 +49,8 @@
       "name": "PlayerHitBox",
       "persistentUuid": "bc64488a-c931-4992-9cae-edfad01bc24c",
       "width": 30,
-      "x": 64,
-      "y": 640,
+      "x": 2624,
+      "y": 481,
       "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,21 +217,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Floor",
-      "name": "BadTrap",
-      "persistentUuid": "14ec484b-b538-4e51-b21d-9ab729940f2c",
-      "width": 0,
-      "x": 2528,
-      "y": 512,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 64,
@@ -284,27 +269,11 @@
       "depth": 1,
       "height": 96,
       "layer": "Floor",
-      "name": "SafeTrap",
-      "persistentUuid": "27596f2f-5d81-4cf1-b2a8-3bbd22339b18",
-      "width": 32,
-      "x": 3904,
-      "y": 448,
-      "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "Floor",
       "name": "BadTrap",
       "persistentUuid": "a5895515-b9e9-4d49-891b-19e407743297",
       "width": 32,
-      "x": 3968,
-      "y": 480,
+      "x": 3840,
+      "y": 448,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -314,28 +283,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "layer": "Floor",
-      "name": "SafeTrap",
-      "persistentUuid": "9c3ba25a-472a-467b-b780-c3536691b6bc",
-      "width": 128,
-      "x": 4128,
-      "y": 512,
-      "zOrder": 100,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 96,
       "layer": "Floor",
       "name": "BadTrap",
       "persistentUuid": "154dcf47-64c2-47e3-8f6d-9538d57ed4fa",
-      "width": 0,
-      "x": 4096,
-      "y": 512,
+      "width": 32,
+      "x": 3936,
+      "y": 448,
       "zOrder": 129,
       "numberProperties": [],
       "stringProperties": [],
@@ -400,22 +354,6 @@
       "x": 4960,
       "y": 608,
       "zOrder": 140,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 288,
-      "layer": "Floor",
-      "name": "FloorTrap2",
-      "persistentUuid": "6a8d690f-285a-4868-b9bc-5a90abf0c74f",
-      "width": 128,
-      "x": 3424,
-      "y": 544,
-      "zOrder": 141,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -753,7 +691,7 @@
       "layer": "Floor",
       "name": "Dirt",
       "persistentUuid": "80f18fc6-648c-4c02-b36c-1991610bb982",
-      "width": 1088,
+      "width": 1216,
       "x": 2208,
       "y": 576,
       "zOrder": 166,
@@ -1534,6 +1472,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "TrapMidGrass2",
+      "persistentUuid": "e800fddc-9faa-48a8-89f5-d85aa04ab167",
+      "width": 128,
+      "x": 3424,
+      "y": 544,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "layer": "Floor",
+      "name": "TrapDirt2",
+      "persistentUuid": "46f16568-816d-4e5a-a734-e5a6f33a59ab",
+      "width": 128,
+      "x": 3424,
+      "y": 576,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1851,67 +1821,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite43",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BadTrap",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite44",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2620,207 +2529,6 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "MidGrass",
-      "texture": "New image22",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": true,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Dirt",
-      "texture": "New image23",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "TopLeftGrassBlock",
-      "texture": "New image24",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "TopRightGrassBlock",
-      "texture": "New image25",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "InwardBotRightGrass",
-      "texture": "New image26",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "RightGrassBlock",
-      "texture": "New image27",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "LeftGrassBlock",
-      "texture": "New image28",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "FloatLeftGrass",
-      "texture": "New image29",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "FloatMidGrass",
-      "texture": "New image30",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "FloatRightGrass",
-      "texture": "New image31",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "FloatGrass",
-      "texture": "New image32",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
       "name": "TrapFloatGrass",
       "texture": "New image33",
       "type": "TiledSpriteObject::TiledSprite",
@@ -2828,25 +2536,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "InwardBotLeftGrass",
-      "texture": "New image34",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": true,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
     },
     {
       "assetStoreId": "",
@@ -2923,17 +2612,6 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
       "name": "TrapDirt",
       "texture": "New image36",
       "type": "TiledSpriteObject::TiledSprite",
@@ -2941,25 +2619,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "SafeFloatGrass",
-      "texture": "New image37",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": false,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3639,6 +3298,28 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "TrapDirt2",
+      "texture": "New image38",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "TrapMidGrass2",
+      "texture": "New image39",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -3668,7 +3349,13 @@
             "objectName": "TrapFloatGrass"
           },
           {
+            "objectName": "TrapMidGrass2"
+          },
+          {
             "objectName": "TrapDirt"
+          },
+          {
+            "objectName": "TrapDirt2"
           },
           {
             "objectName": "FloorTrap3"
@@ -3684,9 +3371,6 @@
           },
           {
             "objectName": "SafeFloor"
-          },
-          {
-            "objectName": "BadTrap"
           },
           {
             "objectName": "FloorTrap"
@@ -3742,53 +3426,6 @@
       },
       {
         "objectName": "LeftWall"
-      },
-      {
-        "folderName": "World Tiles",
-        "children": [
-          {
-            "objectName": "SafeFloatGrass"
-          },
-          {
-            "objectName": "InwardBotLeftGrass"
-          },
-          {
-            "objectName": "FloatGrass"
-          },
-          {
-            "objectName": "FloatRightGrass"
-          },
-          {
-            "objectName": "FloatMidGrass"
-          },
-          {
-            "objectName": "FloatLeftGrass"
-          },
-          {
-            "objectName": "LeftGrassBlock"
-          },
-          {
-            "objectName": "RightGrassBlock"
-          },
-          {
-            "objectName": "InwardBotRightGrass"
-          },
-          {
-            "objectName": "TopRightGrassBlock"
-          },
-          {
-            "objectName": "TopLeftGrassBlock"
-          },
-          {
-            "objectName": "Dirt"
-          },
-          {
-            "objectName": "MidGrass"
-          }
-        ]
-      },
-      {
-        "objectName": "NewTiledSprite"
       }
     ]
   },
