@@ -284,6 +284,17 @@
               "parameters": [
                 "ShowSafeFloat"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tree",
+                "Animation",
+                "=",
+                "\"dead\""
+              ]
             }
           ]
         }
@@ -886,6 +897,24 @@
                   "parameters": [
                     "SafeFloatGrass"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt2",
+                    ""
+                  ]
                 }
               ]
             },
@@ -913,9 +942,27 @@
                   "parameters": [
                     "PlayerHitBox",
                     "=",
-                    "Flag.X() - 10",
+                    "Flag.X() + 25",
                     "=",
-                    "Flag.Y() - 10"
+                    "Flag.Y() - 20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass4",
+                    ""
                   ]
                 }
               ]
@@ -1366,15 +1413,6 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "FloorTrap",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
                     "HiddenSafeTrap",
                     ""
                   ]
@@ -1385,6 +1423,41 @@
                   },
                   "parameters": [
                     "HiddenBadTrap"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapFloatGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SafeFloatGrass"
                   ]
                 }
               ]
@@ -1423,9 +1496,27 @@
                   "parameters": [
                     "PlayerHitBox",
                     "=",
-                    "Flag.X() - 10",
+                    "Flag.X() + 25",
                     "=",
-                    "Flag.Y() - 10"
+                    "Flag.Y() - 20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt4",
+                    ""
                   ]
                 }
               ]
@@ -1495,6 +1586,41 @@
                     "HiddenSafeTrap",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapFloatGrass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SafeFloatGrass"
+                  ]
                 }
               ]
             },
@@ -1503,34 +1629,73 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "ObjectVariableAsBoolean"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerHitBox",
-                        "MovingTrap",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerHitBox",
-                        "MovingTrap2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "MovingTrap",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "=",
+                    "Flag.X() + 25",
+                    "=",
+                    "Flag.Y() - 20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass4",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "MovingTrap2",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -1552,9 +1717,27 @@
                   "parameters": [
                     "PlayerHitBox",
                     "=",
-                    "Flag.X() - 10",
+                    "Flag.X() + 25",
                     "=",
-                    "Flag.Y() - 10"
+                    "Flag.Y() - 20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass4",
+                    ""
                   ]
                 }
               ]
@@ -1611,6 +1794,44 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Flag",
+                    "Checkpoint",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "tree",
+                    "Animation",
+                    "=",
+                    "\"alive\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "tree",
+                    "=",
+                    "553"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -1640,9 +1861,9 @@
                   "parameters": [
                     "PlayerHitBox",
                     "=",
-                    "Flag.X() - 10",
+                    "Flag.X() + 25",
                     "=",
-                    "Flag.Y() - 10"
+                    "Flag.Y() - 20"
                   ]
                 }
               ]
