@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Title Screen",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -2981,6 +2981,490 @@
         "name": "alive",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/CastleTiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\CastleTiles.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PNG/game_background_2/game_background_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG\\game_background_2\\game_background_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "._Pixeboy-z8XGD.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "._Pixeboy-z8XGD.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "._Pixeboy-z8XGD2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "._Pixeboy-z8XGD2.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "._Pixeboy-z8XGD3.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "._Pixeboy-z8XGD3.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "pixeboy-font/Pixeboy-z8XGD.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "pixeboy-font\\Pixeboy-z8XGD.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "pixeboy-font/._Pixeboy-z8XGD.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "pixeboy-font\\._Pixeboy-z8XGD.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/1 Tiles/Tile_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\1 Tiles\\Tile_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/1 Tiles/Tile_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\1 Tiles\\Tile_12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Willows/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Willows\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Ridges/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Ridges\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Willows/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Willows\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Trees/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Trees\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Bushes/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Bushes\\7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Bushes/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Bushes\\5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Fence/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Fence\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Boxes/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Boxes\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Pointers/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Pointers\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Grass/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Grass\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Grass/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Grass\\8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "._Intro(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "._Intro(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "._Pixelland(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "._Pixelland(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Komiku_-_01_-_Intro(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Komiku_-_01_-_Intro(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Pixelland(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pixelland(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Boxes/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Boxes\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Boxes/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Boxes\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Grass/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Grass\\9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Pointers/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Pointers\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Pointers/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Pointers\\5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Pointers/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Pointers\\7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level Tiles/3 Objects/Trees/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Tiles\\3 Objects\\Trees\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite58",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite60",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite61",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trapBad.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trapBad",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trapBad2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trapBad2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite62",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image56",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image57",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image58",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite63",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image59",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image60",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite64",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PNG/game_background_1/game_background_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG\\game_background_1\\game_background_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite65",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Komiku_-_12_-_Bicycle(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Komiku_-_12_-_Bicycle(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite66",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3021,58 +3505,6 @@
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.5,
-          "RightwardSpeed": 0.5,
-          "UpwardSpeed": 0.5,
-          "DownwardSpeed": 0.5,
-          "FollowOnX": true,
-          "FollowOnY": false,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 0,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 0,
-          "LogRightwardSpeed": 0,
-          "LogDownwardSpeed": 0,
-          "LogUpwardSpeed": 0,
-          "DelayedCenterX": 0,
-          "DelayedCenterY": 0,
-          "ForecastHistoryMeanX": 0,
-          "ForecastHistoryMeanY": 0,
-          "ForecastHistoryVarianceX": 0,
-          "ForecastHistoryCovariance": 0,
-          "ForecastHistoryLinearA": 0,
-          "ForecastHistoryLinearB": 0,
-          "ForecastedX": 0,
-          "ForecastedY": 0,
-          "ProjectedNewestX": 0,
-          "ProjectedNewestY": 0,
-          "ProjectedOldestX": 0,
-          "ProjectedOldestY": 0,
-          "ForecastHistoryVarianceY": 0,
-          "Index": 0,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 0,
-          "WaitingSpeedXMax": 0,
-          "WaitingSpeedYMax": 0,
-          "WaitingEnd": 0,
-          "CameraDelayCatchUpDuration": 0,
-          "LeftwardSpeedMax": 9000,
-          "RightwardSpeedMax": 9000,
-          "UpwardSpeedMax": 9000,
-          "DownwardSpeedMax": 9000,
-          "OldX": 9000,
-          "OldY": 9000,
-          "IsCalledManually": false
         }
       ],
       "animations": [
@@ -6174,10 +6606,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6193,10 +6625,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6212,10 +6644,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6231,10 +6663,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6250,10 +6682,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6269,10 +6701,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6288,10 +6720,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6307,10 +6739,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6326,10 +6758,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6345,10 +6777,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6364,10 +6796,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6383,10 +6815,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6402,10 +6834,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6511,10 +6943,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6530,10 +6962,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -6549,13 +6981,90 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds1",
+      "texture": "New image18",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds2",
+      "texture": "New image19",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds3",
+      "texture": "New image20",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGRocks1",
+      "texture": "New image15",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGClouds4",
+      "texture": "New image21",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGRocks2",
+      "texture": "New image16",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BGFar",
+      "texture": "New image14",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -6601,10 +7110,10 @@
             "objectName": "FloatLeftGrass"
           },
           {
-            "objectName": "BottomLeftGrassBlock"
+            "objectName": "BotGrass"
           },
           {
-            "objectName": "BotGrass"
+            "objectName": "BottomLeftGrassBlock"
           },
           {
             "objectName": "InwardTopLeftGrass"
@@ -6628,6 +7137,32 @@
       },
       {
         "objectName": "Flag"
+      },
+      {
+        "folderName": "BG",
+        "children": [
+          {
+            "objectName": "BGFar"
+          },
+          {
+            "objectName": "BGRocks2"
+          },
+          {
+            "objectName": "BGClouds4"
+          },
+          {
+            "objectName": "BGRocks1"
+          },
+          {
+            "objectName": "BGClouds3"
+          },
+          {
+            "objectName": "BGClouds2"
+          },
+          {
+            "objectName": "BGClouds1"
+          }
+        ]
       }
     ]
   },
@@ -6657,6 +7192,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tutorial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
     }
   ],
   "externalEvents": [
@@ -6670,6 +7209,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"

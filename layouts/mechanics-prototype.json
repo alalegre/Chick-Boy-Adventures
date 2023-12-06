@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.7315786463753459,
+    "snap": false,
+    "zoomFactor": 1.7911979166667882,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,7 +35,7 @@
       "width": 64,
       "x": 0,
       "y": -96,
-      "zOrder": 101,
+      "zOrder": 304,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -49,8 +49,8 @@
       "name": "PlayerHitBox",
       "persistentUuid": "bc64488a-c931-4992-9cae-edfad01bc24c",
       "width": 30,
-      "x": 4800,
-      "y": 608,
+      "x": 66,
+      "y": 641,
       "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
@@ -1919,7 +1919,7 @@
       "layer": "Floor",
       "name": "Dirt",
       "persistentUuid": "3a8b1a82-34fb-4561-98f1-8b0b4f4545fb",
-      "width": 4032,
+      "width": 3168,
       "x": 5216,
       "y": 800,
       "zOrder": 254,
@@ -2262,7 +2262,7 @@
       "layer": "Floor",
       "name": "MidGrass",
       "persistentUuid": "6d0c5971-8ff5-4925-9636-d4a7fabfc742",
-      "width": 864,
+      "width": 1920,
       "x": 8384,
       "y": 672,
       "zOrder": 262,
@@ -2351,11 +2351,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 128,
       "layer": "Floor",
       "name": "Dirt",
       "persistentUuid": "ef0a14c9-3fd2-4b00-9897-42ccd0196b77",
-      "width": 864,
+      "width": 1920,
       "x": 8384,
       "y": 704,
       "zOrder": 268,
@@ -2603,8 +2603,8 @@
       "name": "Grass",
       "persistentUuid": "58270a80-18db-4067-a1b1-09ca740b0093",
       "width": 0,
-      "x": 8576,
-      "y": 640,
+      "x": 8550,
+      "y": 648,
       "zOrder": 284,
       "numberProperties": [],
       "stringProperties": [],
@@ -2618,8 +2618,8 @@
       "name": "Grass",
       "persistentUuid": "3d9c2985-d4f5-454b-b372-7474678b9931",
       "width": 0,
-      "x": 8590,
-      "y": 640,
+      "x": 8563,
+      "y": 648,
       "zOrder": 285,
       "numberProperties": [],
       "stringProperties": [],
@@ -2633,8 +2633,8 @@
       "name": "Grass",
       "persistentUuid": "64a8198a-d768-41fa-bdbe-a4099ddaa763",
       "width": 0,
-      "x": 8602,
-      "y": 640,
+      "x": 8574,
+      "y": 648,
       "zOrder": 286,
       "numberProperties": [],
       "stringProperties": [],
@@ -2648,69 +2648,9 @@
       "name": "Grass",
       "persistentUuid": "306a7614-3e63-490c-b28d-0e51887bf3ed",
       "width": 0,
-      "x": 8614,
-      "y": 640,
+      "x": 8589,
+      "y": 648,
       "zOrder": 287,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Floor",
-      "name": "Grass",
-      "persistentUuid": "ba6a4289-4e30-4642-a0f4-7074e5112e70",
-      "width": 0,
-      "x": 8711,
-      "y": 640,
-      "zOrder": 288,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Floor",
-      "name": "Grass",
-      "persistentUuid": "8a7ce398-ba46-404d-9aad-181242887708",
-      "width": 0,
-      "x": 8723,
-      "y": 640,
-      "zOrder": 289,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Floor",
-      "name": "Grass",
-      "persistentUuid": "2685b2c3-6384-4a41-9b79-466b681c8170",
-      "width": 0,
-      "x": 8741,
-      "y": 640,
-      "zOrder": 290,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Floor",
-      "name": "Grass",
-      "persistentUuid": "71bb50bb-b9c4-4b2f-9c44-544a1471fe26",
-      "width": 0,
-      "x": 8766,
-      "y": 640,
-      "zOrder": 291,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2856,6 +2796,409 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "BGRocks2",
+      "persistentUuid": "452ad652-b602-418e-935a-0ecbe1335970",
+      "width": 0,
+      "x": 9248,
+      "y": 512,
+      "zOrder": 300,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "NewSprite3",
+      "persistentUuid": "b9e01b08-0de1-4133-97ae-a12a253f3c2d",
+      "width": 32,
+      "x": 5920,
+      "y": 704,
+      "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "NewSprite2",
+      "persistentUuid": "1cc87440-ca69-470e-9149-8c100e38e6fe",
+      "width": 32,
+      "x": 5920,
+      "y": 736,
+      "zOrder": 302,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Floor",
+      "name": "NewSprite4",
+      "persistentUuid": "a6278a5a-2f69-4a08-9345-47db998ffbc3",
+      "width": 32,
+      "x": 5760,
+      "y": 736,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "you_are_on_your_own_text",
+      "persistentUuid": "ea8cc829-6408-41c9-ae38-a4863baac9df",
+      "width": 0,
+      "x": 96,
+      "y": 319,
+      "zOrder": 305,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 512,
+      "layer": "Floor",
+      "name": "lastTree",
+      "persistentUuid": "4bc6d785-d7c2-4464-895d-ffcf45599226",
+      "width": 557,
+      "x": 9088,
+      "y": 160,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "5b173922-ef9f-4db1-858d-6751b20532b6",
+      "width": 0,
+      "x": 8684,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "993b9552-fc01-48b9-afd5-cae21d9f5d0e",
+      "width": 0,
+      "x": 8707,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "4655d5c7-dd2a-4dc3-bffc-f5ea22a8f310",
+      "width": 0,
+      "x": 8730,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "06fa4246-a975-4eb9-b8ef-a64a6611660d",
+      "width": 0,
+      "x": 8824,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "fbede6eb-2aa6-41f0-93bb-c93bd404df70",
+      "width": 0,
+      "x": 8896,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "ef64d5ef-fea1-4c85-9e99-ec7e67561fe6",
+      "width": 0,
+      "x": 8908,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "95c1b98b-c9ce-4a81-8d09-e78c649a73c4",
+      "width": 0,
+      "x": 8979,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "d14a0b02-9df8-47ff-b776-91f6a9b3ec6f",
+      "width": 0,
+      "x": 9063,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "258e9677-2997-4651-99f7-80c2e47d4f48",
+      "width": 0,
+      "x": 9173,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "c1fd9970-4384-4ad7-9cf6-eae1f21cba2f",
+      "width": 0,
+      "x": 9252,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Floor",
+      "name": "Grass",
+      "persistentUuid": "a1964f5a-72d1-4069-aace-88a9080bdf56",
+      "width": 0,
+      "x": 9264,
+      "y": 648,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 128,
+      "layer": "Floor",
+      "name": "lastHB",
+      "persistentUuid": "e202442e-b590-44a2-b28e-53c595d9ab59",
+      "width": 64,
+      "x": 9472,
+      "y": 544,
+      "zOrder": 308,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "b24636de-f3b1-4bd4-8d02-eb7881657d86",
+      "width": 19,
+      "x": 8830,
+      "y": 653,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "adafc9a8-4a9c-432b-bf18-3012b3ba76cc",
+      "width": 31,
+      "x": 8903,
+      "y": 654,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "2fa44c4e-08b4-40df-975d-b301d567524d",
+      "width": 66,
+      "x": 8690,
+      "y": 654,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "abbcc16b-25af-4672-b81e-acd1278c39f8",
+      "width": 59,
+      "x": 8556,
+      "y": 655,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "3ef75ffa-f1a0-49c5-badb-4977985f483c",
+      "width": 19,
+      "x": 8986,
+      "y": 653,
+      "zOrder": 310,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "d48d8378-deba-4524-b61f-11f462b12fba",
+      "width": 19,
+      "x": 9070,
+      "y": 655,
+      "zOrder": 311,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "f6c46956-6c6c-4336-a9fe-2ae9e55062e3",
+      "width": 19,
+      "x": 9179,
+      "y": 654,
+      "zOrder": 312,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "Floor",
+      "name": "grass",
+      "persistentUuid": "fb66b386-9a61-4acf-86a0-ababf5348bc1",
+      "width": 31,
+      "x": 9259,
+      "y": 654,
+      "zOrder": 313,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2998,83 +3341,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGFar",
-      "texture": "New image14",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGRocks1",
-      "texture": "New image15",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGRocks2",
-      "texture": "New image16",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGClouds1",
-      "texture": "New image18",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGClouds2",
-      "texture": "New image19",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGClouds3",
-      "texture": "New image20",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BGClouds4",
-      "texture": "New image21",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Death",
@@ -3084,10 +3350,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3153,10 +3419,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3228,10 +3494,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3358,10 +3624,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -4754,7 +5020,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Grass",
-      "texture": "New image53",
+      "texture": "New image60",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -4772,10 +5038,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -4911,6 +5177,403 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level Tiles\\3 Objects\\Pointers\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 0,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level Tiles\\3 Objects\\Pointers\\3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 21
+                      },
+                      {
+                        "x": 0,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level Tiles\\3 Objects\\Pointers\\7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 21
+                      },
+                      {
+                        "x": 0,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "you_are_on_your_own_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "you are on your own",
+      "font": "pixeboy-font\\Pixeboy-z8XGD.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lastTree",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite63",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 199,
+                        "y": 0
+                      },
+                      {
+                        "x": 199,
+                        "y": 183
+                      },
+                      {
+                        "x": 0,
+                        "y": 183
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lastHB",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite64",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "grass",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite66",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4987,30 +5650,7 @@
         ]
       },
       {
-        "folderName": "BG",
-        "children": [
-          {
-            "objectName": "BGClouds1"
-          },
-          {
-            "objectName": "BGClouds2"
-          },
-          {
-            "objectName": "BGClouds3"
-          },
-          {
-            "objectName": "BGClouds4"
-          },
-          {
-            "objectName": "BGRocks1"
-          },
-          {
-            "objectName": "BGRocks2"
-          },
-          {
-            "objectName": "BGFar"
-          }
-        ]
+        "folderName": "BG"
       },
       {
         "objectName": "RightWall"
@@ -5053,6 +5693,27 @@
       },
       {
         "objectName": "tree"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "you_are_on_your_own_text"
+      },
+      {
+        "objectName": "lastTree"
+      },
+      {
+        "objectName": "lastHB"
+      },
+      {
+        "objectName": "grass"
       }
     ]
   },
@@ -5073,6 +5734,45 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "BG Music"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Pixelland(chosic.com).mp3",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -5288,6 +5988,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

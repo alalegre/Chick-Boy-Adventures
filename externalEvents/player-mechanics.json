@@ -295,6 +295,22 @@
                 "=",
                 "\"dead\""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lastHB"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "grass"
+              ]
             }
           ]
         }
@@ -306,7 +322,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1358,16 +1373,6 @@
                     "HiddenBadTrap",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "HiddenBadTrap",
-                    "Platform",
-                    "yes"
-                  ]
                 }
               ]
             },
@@ -1836,7 +1841,7 @@
                   },
                   "parameters": [
                     "PlayerHitBox",
-                    "Grass",
+                    "grass",
                     "",
                     "",
                     ""
@@ -1864,6 +1869,53 @@
                     "Flag.X() + 25",
                     "=",
                     "Flag.Y() - 20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapDirt4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TrapMidGrass4",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "lastHB",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Credits\"",
+                    ""
                   ]
                 }
               ]
